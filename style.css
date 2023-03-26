@@ -169,6 +169,43 @@ body {
     :root{
         --h1:1.5em
     }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2em;
+        width: 80%;
+        line-height: 1.5em;
+      }
+
+      nav{
+        margin-left: 1.5em;
+        margin-top: 1.5em;
+        font-size: var(--h2);
+      }
+
+      .learned{
+        margin-left: 2em;
+        margin-top: 4em;
+        margin-bottom: 8em;
+        line-height: 1.5em;
+        width: 80%;
+      }
+
+      .project1, .project2{
+        flex-direction: column;
+        justify-content: center;
+
+      }
+
+      .projects img{
+        max-width: 100%;
+        margin-bottom: 1em;
+      }
+
+      .projects{
+        margin-left: 2em;
+      }
 }
 
 @media (max-width: 450px) {
@@ -176,7 +213,8 @@ body {
     :root{
         --h1:1em;
         --h3:.6em;
-        --p:.8em
+        --p:.8em;
+        --logo: 1em;
     }
 
     .f1{
@@ -185,4 +223,6 @@ body {
     .f2{
         margin-left: 20px;
     }
+
+    
 }
